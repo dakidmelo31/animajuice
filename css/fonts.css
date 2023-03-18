@@ -1,0 +1,18 @@
+@import url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+@import url("../fonts/Phudu/Phudu-VariableFont_wght.ttf");
+@import url("../fonts/Audiowide/Audiowide-Regular.ttf");
+@import url("../fonts/Codystar/Codystar-Regular.ttf");
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Codystar';
+    src: url("../fonts/Codystar/Codystar-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
