@@ -93,7 +93,10 @@ cursorScale.forEach(link => {
     })
 })
 
-
+const data = function() {
+    alert("Information is now ready for you to show to potential workers")
+    return null;
+}
 
 // svg
 
@@ -107,6 +110,7 @@ for (let i = 0; i < nPts; i++) {
         angle = (i / nPts * Math.PI * wraps) - Math.PI / wraps,
         x = Math.cos(angle) * (i / nPts * radius),
         y = Math.sin(angle) * (i / nPts * radius);
+
 
     gsap.set(c, {
         x: 250,

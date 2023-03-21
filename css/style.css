@@ -278,5 +278,15 @@ h2.my-name {
         width: 45vw;
         height: 45vw;
     }
-    .menu-wrapper a {}
+    .menu-wrapper a {
+        text-decoration: none;
+        text-shadow: none;
+        box-sizing: border-box;
+    }
+}
+
+@keyframes information {
+    from {
+        transform-origin: 30;
+    }
 }
